@@ -1,5 +1,5 @@
 <%@page import="clases.Persona"%>
-<% Persona e = new Persona ("Pedro", "Jimenez Vizarra", 25, 1.75f);%>
+<% Persona e = new Persona ("Manolo", "Pescador Benito", 45, 2.10f);%>
 <!DOCTYPE html>
 <html>
 <head>
