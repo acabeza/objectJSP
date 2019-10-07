@@ -1,10 +1,12 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <%@page import="clases.Persona"%>
-<% Persona e = new Persona ("Benito", "Pescador Benito", 35, 2.09f);%>
+<% Persona e = new Persona ("Juan", "Rayman Tutamcamon", 35, 2.09f);%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Documento</title>
+<title>Documents</title>
 </head>
 <body>
 <h1>Datos</h1>

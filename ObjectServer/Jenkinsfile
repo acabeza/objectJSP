@@ -1,7 +1,7 @@
 pipeline{
     agent{
         docker {
-            images 'maven:lastest'
+            image 'maven:latest'
             args '-v /root/.m2:/root/.m2'
         }
     }
@@ -33,9 +33,6 @@ pipeline{
                 }
                 success{
                     echo "====++++Test executed succesfully++++===="
-                    COPY /ObjectServer /ObjectServer/war
-                    cd /war
-                    ren /ObjectServer ObjectServer.war
                 }
                 failure{
                     echo "====++++Test execution failed++++===="
