@@ -29,8 +29,6 @@ pipeline{
              post{
                 always{
                     echo "====++++Comprobando Test++++===="
-                    archive "target/**/*"
-                    junit 'target/surefire-reports/*.xml'
                 }
                 success{
                     echo "====++++Test executed succesfully++++===="
